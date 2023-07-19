@@ -216,3 +216,101 @@ footer {
     flex-wrap: wrap;
 }
 
+/* media query  */
+@media only screen and (max-width: 425px) {
+    body {
+      overflow: hidden;
+    }
+    .navbar {
+        padding: 0;
+        padding-top: 50px;
+        flex-direction: column;
+  }
+  .nav-left-div {
+    /* width: 30%; */
+    /* gap: 10px; */
+    justify-content: center;
+  }
+  .gaming-logo {
+    width: 25%;
+    height: auto;
+    padding: 0;
+}
+.gamer-p {
+    font-size: 20px;
+}
+.nav-right-div {
+    flex-direction: column;
+    gap: 0;
+}
+.nav-list {
+    flex-direction: column;
+}
+.Follow-us-div {
+    padding: 0px;
+}
+.ul-p {
+    font-size: 10px;
+    padding: 0;
+}
+/* banner  */
+.banner {
+    flex-direction: column-reverse;
+}
+.banner-img-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #b6a6a6;
+}
+.banner-img {
+    width: 60%;
+}
+.banner-card-div {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.all-h3 {
+    margin-top: 50px;
+    font-size: 20px;
+}
+.banner-h1 {
+    margin: 0;
+    font-size: 40px;
+}
+.normal-p {
+    font-size: 10px;
+}
+.banner-button-div {
+    margin: 20px 0px;
+    display: flex;
+    gap: 10px;
+}
+.pink-button {
+    height: 30px;
+    width: 80px;
+    font-size: 12px;
+}
+.blue-button {
+    height: 30px;
+    width: 90px;
+    font-size: 12px
+}
+/* online games  */
+.online-game-div {
+    padding: 0;
+}
+.online-game-img-div-container {
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+}
+.online-game-img-div {
+    width: 60%;
+    align-items: center;
+    border: 1px solid red;
+}
+}
