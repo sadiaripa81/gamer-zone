@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* navbar  */
+.navbar {
+    height: 125px;
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left-div {
+    height: 35%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.gaming-logo {
+    padding: 5px;
+}
+.gamer-p {
+    margin: 0;
+    font-size: 45px;
+    font-weight: 700;
+}
+.span-pink-text {
+    color: #F948B2;
+}
+.nav-right-div {
+    height: 35%;
+    display: flex;
+    gap: 30px;
+}
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.Follow-us-div {
+    padding: 15px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #ecebec;
+}
+/* banner  */
+.banner {
+    display: flex;
+}
+.banner-card-div {
+    width: 45%;
+    padding: 130px 0px 0px 200px;
+    background-image: url(./images/Group\ 14.png);
+    background-repeat: no-repeat;
+}
+.all-h3 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.banner-h1 {
+    margin: 0;
+    font-size: 90px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #F948B2;
+}
+.normal-p {
+    font-size: 20px;
+    color: #534C64;
+}
+.banner-button-div {
+    margin: 20px 0px;
+    display: flex;
+    gap: 20px;
+}
+.pink-button {
+    height: 50px;
+    width: 140px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #fffdff;
+    border: none;
+    background-color: #F948B2;
+}
+.blue-button {
+    height: 50px;
+    width: 160px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #fffdff;
+    border: none;
+    background-color: #4EC5F7;
+}
+.banner-img-div {
+    width: 55%;
+}
+/* online games section  */
+.online-game-div {
+    padding: 70px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.online-game-img-div-container {
+    display: flex;
+    gap: 25px;
+}
+.online-game-img-div {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.online-game-img-div:hover {
+    cursor: pointer;
+    filter: brightness(50%);
+}
+/* play instantly section  */
+.play-instantly-div {
+    padding: 0px 200px;
+    padding-bottom: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.play-instantly-card {
+    width: 35%;
+    margin: 0;
+    padding: 180px 0px 0px 100px;
+    text-align: right;
+}
+.play-instantly-img-div {
+    width: 40%;
+    position: relative;
+}
+.play-instantly-img {
+    height: auto;
+    width: 100%;
+}
+.play-instantly-img-small-div {
+    position: absolute;
+    bottom: -100px;
+    left: -100px;
+}
+/* <!-- button section --> */
+.button-div {
+    padding: 80px 200px 80px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    background-color: rgb(247, 242, 243);
+}
+.stantup-button {
+    padding: 0px 20px;
+    display: flex;
+    gap: 15px;
+    border-radius: 45px;
+    background-color: #fff;
+    border: 1px transparent;
+}
+.stantup-button:hover {
+    cursor: pointer;
+}
+.button-text {
+    font-size: 20px;
+    font-weight: 600;
+}
+.button-text:hover {
+    color: #F948B2;
+}
+/* footer section  */
+footer {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #26223a;
+}
+.gamer-logo-div {
+    display: flex;
+}
+.footer-p-div {
+    width: 50%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-p-bold {
+    font-style: 20px;
+    font-weight: 800;
+    color: #fffdff;
+}
+.image-button-div {
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.button-logo {
+    background-color: transparent;
+}
+.button-logo:hover {
+    cursor: pointer;
+}
+.footer-p {
+    color: #ebe5eb;
+    display: flex;
+    flex-wrap: wrap;
+}
+
