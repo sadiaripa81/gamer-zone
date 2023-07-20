@@ -113,11 +113,30 @@ body {
     width: 25%;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
+    position: relative;
+    display: inline-block;
+}
+.online-hover-div {
+    position: absolute;
+    top: 35%;
+    right: 40%;
+    opacity: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #e7214c;
+}
+.online-hover-div:hover {
+    color: #e7214c;
+}
+.online-hover-div:hover {
+    opacity: 100%;
 }
 .online-game-img-div:hover {
     cursor: pointer;
-    filter: brightness(50%);
+    filter: brightness(60%);
 }
 /* play instantly section  */
 .play-instantly-div {
@@ -168,6 +187,7 @@ body {
 }
 .stantup-button:hover {
     cursor: pointer;
+    border: 1px solid #F948B2;
 }
 .button-logo {
     width: 20%;
@@ -337,6 +357,16 @@ footer {
   .online-img {
     width: 100%;
   }
+  .online-hover-div {
+    position: absolute;
+    top: 35%;
+    right: 40%;
+    opacity: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #e7214c;
+}
 
   /* play instantly section  */
   .play-instantly-div {
