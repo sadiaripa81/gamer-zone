@@ -247,7 +247,6 @@ footer {
         height: auto;
         padding: 20px 40px;
         flex-direction: column;
-        border: 1px solid #F948B2;
   }
   .nav-left-div {
     justify-content: center;
