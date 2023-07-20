@@ -184,7 +184,7 @@ color: #F948B2;
     gap: 15px;
     border-radius: 45px;
     background-color: #fff;
-    border: 1px transparent;
+    border: 1px solid transparent;
 }
 .stantup-button:hover {
     cursor: pointer;
