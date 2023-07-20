@@ -2,6 +2,9 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+.title-g {
+color: #F948B2;
+}
 /* navbar  */
 .navbar {
     height: 125px;
@@ -126,14 +129,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid #e7214c;
 }
 .online-hover-div:hover {
     color: #e7214c;
-}
-.online-hover-div:hover {
     opacity: 100%;
 }
+
 .online-game-img-div:hover {
     cursor: pointer;
     filter: brightness(60%);
@@ -213,6 +214,7 @@ footer {
 }
 .gamer-logo-div {
     display: flex;
+    gap: 10px;
     align-items: center;
     justify-content: center;
 }
@@ -358,16 +360,10 @@ footer {
     width: 100%;
   }
   .online-hover-div {
-    position: absolute;
-    top: 35%;
-    right: 40%;
-    opacity: 0%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #e7214c;
-}
-
+    top: 40%;
+    right: 35%;
+    opacity: 0;
+  }
   /* play instantly section  */
   .play-instantly-div {
     padding: 0;
